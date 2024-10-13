@@ -1,9 +1,10 @@
 
-using Dependency_Injection_Demo.Services;
+using Dependency_Injection_Demo;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddLifetimeServices();
 
 /*
 builder.Services.AddSingleton<IDemoService, DemoService>();
@@ -11,9 +12,9 @@ builder.Services.AddSingleton<IDemoService, DemoService>();
 builder.Services.AddScoped<IDemoService, DemoService>();
 */
 
-builder.Services.AddScoped<IScopedService, ScopedService>();
-builder.Services.AddTransient<ITransientService, TransientService>();
-builder.Services.AddSingleton<ISingletonService, SingletonService>();
+// builder.Services.AddScoped<IScopedService, ScopedService>();
+// builder.Services.AddTransient<ITransientService, TransientService>();
+// builder.Services.AddSingleton<ISingletonService, SingletonService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
