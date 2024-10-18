@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency_Injection_Demo",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_Core_Demo", "EF_Core_Demo\EF_Core_Demo.csproj", "{46537A58-77F4-417D-877F-35341B14B64B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiDemo", "MinimalApiDemo\MinimalApiDemo.csproj", "{8E4B5B1D-6B63-4167-B132-BE36BFF99536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{46537A58-77F4-417D-877F-35341B14B64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46537A58-77F4-417D-877F-35341B14B64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46537A58-77F4-417D-877F-35341B14B64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4B5B1D-6B63-4167-B132-BE36BFF99536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4B5B1D-6B63-4167-B132-BE36BFF99536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4B5B1D-6B63-4167-B132-BE36BFF99536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4B5B1D-6B63-4167-B132-BE36BFF99536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
