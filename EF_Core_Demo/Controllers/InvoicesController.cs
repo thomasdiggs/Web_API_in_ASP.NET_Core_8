@@ -7,8 +7,8 @@ using EF_Core_Demo.Models;
 
 namespace EF_Core_Demo.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class InvoicesController : ControllerBase
     {
         private readonly InvoiceDbContext _context;

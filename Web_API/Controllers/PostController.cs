@@ -1,4 +1,3 @@
-
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Web_API.Models;
@@ -6,8 +5,8 @@ using Web_API.Services;
 
 namespace Web_API.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class PostsController : ControllerBase
     {
         private readonly IPostService _postsService;
